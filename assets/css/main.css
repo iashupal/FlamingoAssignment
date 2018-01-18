@@ -1,375 +1,350 @@
-        .left {
-            float: left;
-        }
-        
-        .right {
-            float: right;
-        }
-        
-        .clearfix:after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-        
-        body {
-            padding: 0;
-            margin: 0;
-        }
-        
-        header {
-            padding: 5px;
-            padding-bottom: 0;
-            margin-bottom: 0px;
-            background-color: #000000;
-        }
-        
-        .container {
-            padding: 15px auto;
-        }
-        
-        header .detail {
-            padding-top: 5px;
-        }
-        
-        header .detail img {
-            width: 30%;
-            height: 60px;
-        }
-        
-        header .social {
-            font-size: 24px;
-            margin-left: 84%;
-        }
-        
-        header .social .fb,
-        .twit {
-            border-radius: 50%;
-            padding: 0 5px;
-            cursor: pointer;
-        }
-        
-        header .social .fb {
-            color: gray;
-        }
-        
-        header .social .twit {
-            color: gray;
-        }
-        
-        header .menu {
-            color: white;
-        }
-        
-        .menu {
-            margin-left: -14%;
-            margin-bottom: 0;
-        }
-        
-        header .menu ul {
-            list-style: none;
-            margin-left: 30%;
-            font-family: 'Noticia Text', serif;
-        }
-        
-        header .menu ul li {
-            display: inline-block;
-            padding: 5px 5px;
-            font-size: 16px;
-            color: gray;
-            margin: 2px 10px;
-        }
-        
-        li .active {
-            border-bottom: white;
-        }
-        
-        a {
-            background-color: transparent;
-        }
-        
-        header .menu ul li a {
-            text-decoration: none !important;
-            color: inherit;
-        }
-        
-        header .image {
-            width: 100%;
-        }
-        
-        img {
-            width: 100%;
-        }
-        
-        #content {
-            width: 100%;
-        }
-        
-        #content .contain {
-            background-color: #FFFFFF;
-            width: 100%;
-        }
-        
-        #content .vacation {
-            margin: 3% 10%;
-            width: 25%;
-            display: inline-block;
-        }
-        
-        .vacation h3 {
-            border-bottom: 2px solid #E55430;
-            padding-bottom: 8px;
-            margin-bottom: 15px;
-        }
-        
-        #content .vacation .info {
-            font-size: 14px;
-        }
-        
-        .para_heading {
-            color: gray;
-            position: relative;
-            border-bottom: 1px solid #EEF0F2;
-            padding-bottom: 7px;
-            padding-top: 5px;
-        }
-        /*
+ .left {
+     float: left;
+ }
+ 
+ .right {
+     float: right;
+ }
+ 
+ .clearfix:after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ 
+ body {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ .navbar {
+     margin-bottom: 0px !important;
+ }
+ 
+ .container img {
+     padding-top: 10px;
+     width: 120px;
+     height: 80px;
+ }
+ 
+ .social {
+     font-size: 24px;
+     margin-left: 94%;
+ }
+ 
+ .social .fb,
+ .twit {
+     border-radius: 50%;
+     padding: 0 5px;
+     cursor: pointer;
+ }
+ 
+ .social .fb {
+     color: gray;
+ }
+ 
+ .social .twit {
+     color: gray;
+ }
+ /*finish*/
+ 
+ img {
+     width: 100%;
+ }
+ 
+ #content {
+     width: 100%;
+ }
+ 
+ #content .contain {
+     background-color: #FFFFFF;
+     width: 100%;
+ }
+ 
+ #content .vacation {
+     margin: 3% 10%;
+     width: 25%;
+     display: inline-block;
+ }
+ 
+ .vacation h3 {
+     border-bottom: 2px solid #E55430;
+     padding-bottom: 8px;
+     margin-bottom: 15px;
+ }
+ 
+ #content .vacation .info {
+     font-size: 14px;
+ }
+ 
+ .para_heading {
+     color: gray;
+     position: relative;
+     border-bottom: 1px solid #EEF0F2;
+     padding-bottom: 7px;
+     padding-top: 5px;
+ }
+ /*
 .icon {
     position: absolute;
     right: 6%;
 }
 */
-        
-        #icon {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #icon1 {
-            position: absolute;
-            right: 6%;
-            top: 12% !important;
-        }
-        
-        #icon2 {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #icon3 {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #icon4 {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #icon5 {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #icon6 {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #icon7 {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #icon8 {
-            position: absolute;
-            right: 6%;
-            top: 12%;
-        }
-        
-        #content .adventure {
-            display: inline-block;
-            /*    width: 60%;*/
-            margin: 3% -3%;
-        }
-        
-        .adventure h2 {
-            font-size: 18px;
-            border-bottom: 2px solid #E55430;
-            padding-bottom: 8px;
-            margin-bottom: 15px;
-        }
-        
-        .adventure .adv_content {
-            width: 100%;
-            margin-left: 2px;
-        }
-        
-        .adv_content .images {
-            width: 25%;
-            display: inline-block;
-            border: 1px solid gray;
-            box-shadow: 1px 1px 1px 0.1px gray;
-        }
-        
-        .images .place_img {
-            width: 100%;
-            padding: 5px;
-        }
-        
-        .descriptn {
-            width: 70%;
-            display: inline-block;
-        }
-        
-        .para {
-            text-align: justify;
-            margin-right: 5px;
-            font-size: 14px;
-            color: gray;
-        }
-        
-        footer {
-            background-color: #2C302E;
-            font-size: 12px;
-        }
-        
-        footer .footer_para {
-            text-align: left;
-            color: gray;
-            display: inline-block;
-            padding: 0 10%;
-            padding-top: 1.5%;
-        }
-        /*Responsive Code
+ 
+ #icon {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #icon1 {
+     position: absolute;
+     right: 6%;
+     top: 12% !important;
+ }
+ 
+ #icon2 {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #icon3 {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #icon4 {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #icon5 {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #icon6 {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #icon7 {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #icon8 {
+     position: absolute;
+     right: 6%;
+     top: 12%;
+ }
+ 
+ #content .adventure {
+     display: inline-block;
+     /*    width: 60%;*/
+     margin: 3% -3%;
+ }
+ 
+ .adventure h2 {
+     font-size: 18px;
+     border-bottom: 2px solid #E55430;
+     padding-bottom: 8px;
+     margin-bottom: 15px;
+ }
+ 
+ .adventure .adv_content {
+     width: 100%;
+     margin-left: 2px;
+ }
+ 
+ .adv_content .images {
+     width: 25%;
+     display: inline-block;
+     border: 1px solid gray;
+     box-shadow: 1px 1px 1px 0.1px gray;
+ }
+ 
+ .images .place_img {
+     width: 100%;
+     padding: 5px;
+ }
+ 
+ .descriptn {
+     width: 70%;
+     display: inline-block;
+ }
+ 
+ .para {
+     text-align: justify;
+     margin-right: 5px;
+     font-size: 14px;
+     color: gray;
+ }
+ 
+ footer {
+     background-color: #2C302E;
+     font-size: 12px;
+ }
+ 
+ footer .footer_para {
+     text-align: left;
+     color: gray;
+     display: inline-block;
+     padding: 0 10%;
+     padding-top: 1.5%;
+ }
+ /*Responsive Code
 1200
 1024
 998
-767
+768
 640
 480
 320
 
 */
-        /* 1024 px css code*/
-        
-        @media screen and (max-width: 1199px) and (min-width: 1024px) {
-            header .menu ul {
-                margin-left: 17%;
-            }
-        }
-        /*992px css code*/
-        
-        @media screen and (max-width: 1023px) and (min-width: 992px) {
-            header .menu ul {
-                margin-left: 17%;
-            }
-        }
-        /*767px css code*/
-        
-        @media screen and (max-width: 991px) and (min-width: 767px) {
-            header .detail img {
-                width: 17%;
-            }
-            header .menu ul {
-                margin-left: 17%;
-            }
-            .adventure h2 {
-                margin-left: 10px;
-            }
-            .adventure .adv_content {
-                margin-left: 10px;
-            }
-            .para {
-                margin-right: 15px;
-            }
-            #content .vacation {
-                width: 80%;
-            }
-            #content .adventure {
-                width: 95%;
-                margin: 3% 1%;
-            }
-            footer {
-                font-size: 12px;
-            }
-            footer .footer_para {
-                padding: 1% 8%;
-            }
-        }
-        /*640px css code */
-        
-        @media screen and (max-width: 766px) and (min-width: 640px) {
-            .adventure h2 {
-                margin-left: 10px;
-            }
-            .adventure .adv_content {
-                margin-left: 10px;
-            }
-            .para {
-                margin-right: 15px;
-            }
-            #content .vacation {
-                width: 80%;
-            }
-            #content .adventure {
-                width: 95%;
-                margin: 3% 1%;
-            }
-            footer {
-                font-size: 12px;
-            }
-            footer .footer_para {
-                padding: 1% 8%;
-            }
-        }
-        /*480px css code*/
-        
-        @media screen and (max-width: 639px) and (min-width: 480px) {
-            .adventure h2 {
-                margin-left: 10px;
-            }
-            .adventure .adv_content {
-                margin-left: 10px;
-            }
-            .para {
-                margin-right: 15px;
-            }
-            #content .vacation {
-                width: 80%;
-            }
-            #content .adventure {
-                width: 95%;
-                margin: 3% 1%;
-            }
-            footer {
-                font-size: 10px;
-            }
-            footer .footer_para {
-                padding: 1% 8%;
-            }
-        }
-        /*320px css code*/
-        
-        @media screen and (max-width: 479px) and (min-width: 320px) {
-            #content .vacation {
-                width: 80%;
-            }
-            #content .adventure {
-                width: 95%;
-                margin: 3% 1%;
-            }
-            footer {
-                font-size: 10px;
-            }
-            footer .footer_para {
-                padding: 0 10%;
-            }
-        }
+ 
+ @media screen and (min-width: 1200px) {
+     .social {
+         margin-left: 94%;
+     }
+ }
+ /* 1024 px css code*/
+ 
+ @media screen and (max-width: 1199px) and (min-width: 1024px) {
+     .social {
+         margin-left: 93%;
+     }
+ }
+ /*992px css code*/
+ 
+ @media screen and (max-width: 1023px) and (min-width: 992px) {
+     .social {
+         margin-left: 93%;
+     }
+ }
+ /*767px css code*/
+ 
+ @media screen and (max-width: 991px) and (min-width: 768px) {
+     .social {
+         margin-left: 90%;
+     }
+     .adventure h2 {
+         margin-left: 10px;
+     }
+     .adventure .adv_content {
+         margin-left: 10px;
+     }
+     .para {
+         margin-right: 15px;
+     }
+     #content .vacation {
+         width: 80%;
+     }
+     #content .adventure {
+         width: 95%;
+         margin: 3% 1%;
+     }
+     footer {
+         font-size: 12px;
+     }
+     footer .footer_para {
+         padding: 1% 8%;
+     }
+ }
+ /*640px css code */
+ 
+ @media screen and (max-width: 767px) and (min-width: 640px) {
+     .social {
+         display: none;
+     }
+     .social .fb,
+     .twit {
+         display: none;
+     }
+     .adventure h2 {
+         margin-left: 10px;
+     }
+     .adventure .adv_content {
+         margin-left: 10px;
+     }
+     .para {
+         margin-right: 15px;
+     }
+     #content .vacation {
+         width: 80%;
+     }
+     #content .adventure {
+         width: 95%;
+         margin: 3% 1%;
+     }
+     footer {
+         font-size: 12px;
+     }
+     footer .footer_para {
+         padding: 1% 8%;
+     }
+ }
+ /*480px css code*/
+ 
+ @media screen and (max-width: 639px) and (min-width: 480px) {
+     .social {
+         display: none;
+     }
+     .social .fb,
+     .twit {
+         display: none;
+     }
+     .adventure h2 {
+         margin-left: 10px;
+     }
+     .adventure .adv_content {
+         margin-left: 10px;
+     }
+     .para {
+         margin-right: 15px;
+     }
+     #content .vacation {
+         width: 80%;
+     }
+     #content .adventure {
+         width: 95%;
+         margin: 3% 1%;
+     }
+     footer {
+         font-size: 10px;
+     }
+     footer .footer_para {
+         padding: 1% 8%;
+     }
+ }
+ /*320px css code*/
+ 
+ @media screen and (max-width: 479px) and (min-width: 320px) {
+     .social {
+         display: none;
+     }
+     .social .fb,
+     .twit {
+         display: none;
+     }
+     #content .vacation {
+         width: 80%;
+     }
+     #content .adventure {
+         width: 95%;
+         margin: 3% 1%;
+     }
+     footer {
+         font-size: 10px;
+     }
+     footer .footer_para {
+         padding: 0 10%;
+     }
+ }

@@ -13,56 +13,51 @@
 </head>
 
 <body>
-    <div id="container">
-        <!-- start header  -->
-        <header>
-            <div class="container">
-                <div class="headcount row">
-                    <div class="detail col-sm-4"> <img src="assets/images/logo.PNG" alt="Logo"> </div>
-                    <div class="col-sm-8">
-                        <div class="social">
-                            <div> <span class="fb">
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container"> <img class="navbar-brand" src="assets/images/logo.PNG" alt="logo">
+            <!--            <h4 class="navbar-brand">Title</h4>-->
+            <div class="social">
+                <div> <span class="fb">
                         <i class="fa fa-facebook-square" aria-hidden="true"></i></span> <span class="twit">
                         <i class="fa fa-twitter-square" aria-hidden="true"></i></span> </div>
-                        </div>
-                        <div class="menu">
-                            <ul>
-                                <li class="active"><a class="menucont" href="index.html">Home</a></li>
-                                <li><a class="menucont" href="#">About</a></li>
-                                <li><a class="menucont" href="#">Our team</a></li>
-                                <li><a class="menucont" href="#">Destinations</a></li>
-                                <li><a class="menucont" href="#">Itinerary</a></li>
-                                <li><a class="menucont" href="#">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
-            <div class="image"> <img src="assets/images/Header.jpg" alt="Header of Itinerary"> </div>
-        </header>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">our team</a></li>
+                    <li><a href="#">destinations</a></li>
+                    <li><a href="#">itinerary</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div class="image"> <img src="assets/images/Header.jpg" alt="Header of Itinerary"> </div>
         <!--  header finish  -->
         <!--   start content-->
         <div id="content">
             <div class="contain row">
                 <div class="vacation col-sm-6">
                     <div class="heading">
-                        <h3>Vacation Type</h3></div>
+                        <h3>vacation type</h3></div>
                     <div class="info">
-                        <p class="para_heading">Walking and Trekking adventures</p>
-                        <p class="para_heading">health and wellness</p>
-                        <p class="para_heading">of the beaten tracks</p>
-                        <p class="para_heading">student expenditions lorem ipsum dolor amet consectetur adipisicing</p>
-                        <p class="para_heading">wildlife adventures</p>
-                        <p class="para_heading">great train journeys</p>
-                        <p class="para_heading">journey of the buddhist trail</p>
-                        <p class="para_heading">people and culture</p>
-                        <p class="para_heading">religious historic tours</p>
-                    </div>
+                        <p class="para_heading">walking and trekking adventures</p> <i class="icon" id="icon" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">health and wellness</p> <i id="icon1" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">of the beaten tracks</p> <i id="icon2" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">student expenditions lorem ipsum dolor amet consectetur adipisicing</p> <i id="icon3" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">wildlife adventures</p> <i id="icon4" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">great train journeys</p> <i id="icon5" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">journey of the buddhist trail</p> <i id="icon6" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">people and culture</p> <i id="icon7" class="fa fa-caret-right" aria-hidden="true"></i>
+                        <p class="para_heading">religious historic tours</p> <i id="icon8" class="fa fa-caret-right" aria-hidden="true"></i> </div>
                 </div>
                 <div class="adventure col-sm-6">
                     <!--    block 1   -->
                     <div class="heading">
-                        <h2>Walking and Trekking adventures</h2> </div>
+                        <h2>walking and trekking adventures</h2> </div>
                     <div class="adv_content clearfix">
                         <div class="images"><img class="place_img" src="assets/images/ItnThumb1.jpg" alt="lorem ipsum"></div>
                         <div class="descriptn right">
@@ -102,7 +97,7 @@
         <!--   finish content -->
         <!--  start footer  -->
         <footer class="clearfix">
-            <p class="footer_para">&copy;all Rights Reserved | terms &amp; conditions | privacy policy</p>
+            <p class="footer_para">&copy;all rights reserved | terms &amp; conditions | privacy policy</p>
             <p class="footer_para right">site by web:ink</p>
         </footer>
     </div>
